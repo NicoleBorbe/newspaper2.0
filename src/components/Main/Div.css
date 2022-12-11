@@ -1,0 +1,15 @@
+div {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    /* gap: 2rem; */
+}
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+p {
+    font-size: 1.45rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}

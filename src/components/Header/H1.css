@@ -1,0 +1,8 @@
+h1 {
+    text-transform: capitalize;
+    font-variant-caps: small-caps;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+}

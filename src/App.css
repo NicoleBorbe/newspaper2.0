@@ -1,38 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cormorant Garamond'), url(./fonts/CormorantGaramond-Regular.ttf);
+}
+@font-face {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cormorant Garamond'), url(./fonts/CormorantGaramond-Italic.ttf);
+}
+@font-face {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cormorant Garamond'), url(./fonts/CormorantGaramond-Bold.ttf);
+}
+html {
+  font-size: 62.5%;
+  /* = 10px */
+}
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: rgb(233, 233, 224);
+  color: #333;
+  font-family: 'Cormorant Garamond', serif;
+  font-variant-numeric: lining-nums;
+}
 .App {
-  text-align: center;
+  display: block;
+  width: 1400px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Section1 {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 25rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Section2 {
+  display: flex;
+  justify-content: space-evenly;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Article1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: baseline;
+  margin-top: 1rem;
 }
-
-.App-link {
-  color: #61dafb;
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+figure img {
+  height: 70vh;
+}
+figcaption {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.5rem;
+  /* margin-top: -3rem; */
 }

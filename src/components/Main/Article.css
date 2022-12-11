@@ -1,0 +1,34 @@
+
+aside article {
+    height: 18rem;
+    width: 18rem;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem 1rem 2rem 1rem;
+    border: 5px double #333;
+    margin-bottom: 2rem;
+}
+aside p {
+    color: gray;
+}
+h5 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: -2rem;
+    text-align: center;
+}
+h6 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    /* margin-bottom: 2rem;
+    margin-top: -2rem; */
+    text-align: center;
+}
+aside img {
+    height: 15rem;
+    width: 15rem;
+    filter: grayscale(100%);
+    text-align: center;
+}
